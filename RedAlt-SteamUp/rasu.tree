@@ -7,4 +7,6 @@
                  start-page="Introduction.md">
 
     <toc-element topic="Introduction.md"/>
+    <toc-element topic="Using-the-Creator.md"/>
+    <toc-element topic="Using-the-Installer.md"/>
 </instance-profile>

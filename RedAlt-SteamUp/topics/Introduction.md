@@ -1,9 +1,9 @@
 # Introduction
 
 This documentation provides help
-for [RedAlt Steam Update Creator](https://github.com/Reddiepoint/RedAlt-Steam-Update-Creator)
-and [RedAlt Steam Update Installer](https://github.com/Reddiepoint/RedAlt-Steam-Update-Installer).
+for [RedAlt SteamUp Creator](https://github.com/Reddiepoint/RedAlt-Steam-Update-Creator)
+and [RedAlt SteamUp Installer](https://github.com/Reddiepoint/RedAlt-Steam-Update-Installer).
 
-## What is RedAlt Steam Update Creator/Installer?
+## What is RedAlt SteamUp?
 
 WIP
