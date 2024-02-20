@@ -8,7 +8,7 @@
             <noindex-content>true</noindex-content>
         </variables>
     </build-profile>
-    <build-profile instance="rasud">
+    <build-profile instance="rasu">
         <variables>
             <noindex-content>true</noindex-content>
         </variables>
