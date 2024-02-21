@@ -4,11 +4,14 @@
 
 1. Run the Installer (requires read, write and execute permissions).
 2. Set the settings you want with the `set` command:
-    - `changes_file <path>` (No quotes required for path): Set the path to the JSON file containing the changes. Defaults to the JSON file in the same
+    - `changes_file <path>` (No quotes required for path): Set the path to the JSON file containing the changes.
+      Defaults to the JSON file in the same
       folder as the Installer, if it exists.
-    - `game_directory <path>` (No quotes required for path): Set the path to the root game directory. Defaults to the Installer's grandparent folder (
+    - `game_directory <path>` (No quotes required for path): Set the path to the root game directory. Defaults to the
+      Installer's grandparent folder (
       should place the folder containing the new game files in the root game directory).
-    - `files_directory <path>` (No quotes required for path): Set the path to the root directory containing the new game files. Defaults to the parent
+    - `files_directory <path>` (No quotes required for path): Set the path to the root directory containing the new game
+      files. Defaults to the parent
       folder of the Installer.
     - `create_backup <(t)rue|(f)alse>`: Set whether to create a backup of the original files before installing. Defaults
       to `true`. Backups will be stored in the `.Backup` directory in the `game_directory`.
@@ -21,10 +24,11 @@
 
 ## Creating Updates
 
-The Installer can also be used to extract files from a game directory as well by reversing the installation process. This is useful for users who have a local
-copy of the game and want to create updates based of that.
+The Installer can also be used to extract files from a game directory as well by reversing the installation process.
+This is useful for users who have a local copy of the game and want to create updates based of that.
 
-1. Follow steps 1-3 for [getting the changes](Using-the-Creator.md).
+1. Follow steps 1-3 for [getting the changes](Using-the-Creator.md), or alternatively, create the JSON file manually (
+   not recommended).
 2. Set the `changes_file` to the new JSON file containing the changes.
 3. Set the `files_directory` to the root game directory.
 4. Set the `game_directory` to the new folder you want to extract the files to.

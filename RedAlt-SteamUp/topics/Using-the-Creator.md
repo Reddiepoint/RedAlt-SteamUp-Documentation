@@ -2,7 +2,7 @@
 
 1. Install
    the [SteamDB Changelist Grabber script](https://github.com/Reddiepoint/RedAlt-SteamUp-Creator/blob/main/RedAlt-SteamDB-Changelist-Grabber.user.js)
-   with a script manager (e.g. [Violentmonkey](https://github.com/Violentmonkey/Violentmonkey)).
+   with a script manager.
 2. Go to game's patchnotes page (https://steamdb.info/app/`APPID`/patchnotes/)
 3. Click the `Get changes` button and specify the depot ID and the build numbers that you want to create an update for.
     - The script will open a window for each build. Wait for the script to finish and the changes will be downloaded as
