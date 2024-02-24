@@ -19,3 +19,5 @@
       if you add more files, they will need to be updated in the bundled JSON file containing the changes).
 8. Click the `Download changes` button to download the files.
 9. Share the files!
+    - You can use the integration with [MultiUp Direct](https://cs.rin.ru/forum/viewtopic.php?f=14&t=132189) to upload
+      the files to [MultiUp](https://multiup.io/).
