@@ -13,6 +13,13 @@
     - `files_directory <path>` (No quotes required for path): Set the path to the root directory containing the new game
       files. Defaults to the parent
       folder of the Installer.
+    - `manifest_file <path>` (No quotes required for path): Set the path to the file containing the hashes. Supports the
+      Depot Downloader readable manifest and the SHA-1 report generated from a `.manifest` file
+      using [manifestViewer](https://cs.rin.ru/forum/viewtopic.php?f=29&t=102763).
+    - `validate update <(t)rue|(f)alse>`: Set whether to validate the update files against the manifest before updating
+      the game. Defaults to `true`.
+    - `validate game <(t)rue|(f)alse>`: Set whether to validate the game files against the manifest after updating the
+      game. Defaults to `true`.
     - `create_backup <(t)rue|(f)alse>`: Set whether to create a backup of the original files before installing. Defaults
       to `true`. Backups will be stored in the `.Backup` directory in the `game_directory`.
     - `copy_files <(t)rue|(f)alse>`: Set whether the new game files will be copied over. Defaults to `true`. Disable

@@ -12,5 +12,6 @@
         <toc-element topic="Creator-Settings.md"/>
         <toc-element topic="Deleting-Steam-Credentials.md"/>
     </toc-element>
-    <toc-element topic="Using-the-Installer.md"/>
+    <toc-element topic="Using-the-Installer.md">
+    </toc-element>
 </instance-profile>
